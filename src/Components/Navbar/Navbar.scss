@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-around;
+
+    .nav {
+        background-color: crimson;
+
+        ul {
+            list-style-type: none;
+
+            li {
+                display: inline-block;
+                padding: 0 1rem;
+            }
+        }
+    }
+}
